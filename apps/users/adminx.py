@@ -13,7 +13,7 @@ class BaseSetting(object):
 
 
 class GlobalSettings(object):
-    site_title = "天天生鲜后台"
+    site_title = "生鲜商城后台"
     site_footer = "xshop"
     # menu_style = "accordion"
 

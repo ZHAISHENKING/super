@@ -90,8 +90,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "shop",
         'USER': 'root',
-        'PASSWORD': "Jiege..950417",
-        'HOST': "",
+        'PASSWORD': "python",
+        'HOST': "s001.xin",
         "OPTIONS":{"init_command":"SET default_storage_engine=INNODB;"},
     }
 }

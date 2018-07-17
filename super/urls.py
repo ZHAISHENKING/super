@@ -47,7 +47,7 @@ urlpatterns = [
     url(r'^api-auth', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
     url(r'^api',include(router.urls)),
-    url(r'docs/',include_docs_urls(title="天天生鲜")),
+    url(r'docs/',include_docs_urls(title="生鲜商城")),
     url('api-token-auth/', views.obtain_auth_token),
     url('jwt-auth/', obtain_jwt_token),
     url(r'^$', TemplateView.as_view(template_name="index.html")),
