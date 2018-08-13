@@ -50,6 +50,8 @@
 ```bash
 git clone https://github.com/ZHAISHENKING/super.git
 ```
+启动数据库，并新建数据库`shop`      
+
 修改配置文件 settings.py
 ```python
 # 数据库用mysql
