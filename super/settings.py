@@ -92,7 +92,6 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': os.environ.get('sqlpwd'),
         'HOST': "s001.xin",
-        "OPTIONS":{"init_command":"SET default_storage_engine=INNODB;"},
     }
 }
 
