@@ -31,6 +31,7 @@ from trade.views import ShoppingCartViewset, OrderViewset
 # franmework的router在此注册
 router = routers.DefaultRouter()
 
+
 router.register(r'goods', GoodsListViewSet, base_name='goods')
 # 配置分类url
 router.register(r'categorys', CategoryViewset, base_name='categorys')
@@ -41,8 +42,8 @@ router.register(r'shopcarts', ShoppingCartViewset, base_name="shopcarts")
 # 配置订单的url
 router.register(r'orders', OrderViewset, base_name="orders")
 
+
 urlpatterns = [
-    # url(r'^admin/', admin.site.urls),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^api-auth', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),

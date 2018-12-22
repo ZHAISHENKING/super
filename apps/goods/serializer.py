@@ -23,11 +23,13 @@ class CategorySerializer(serializers.ModelSerializer):
         model = GoodsCategory
         fields = "__all__"
 
+
 # 商品详情轮播图
 class GoodsImageSerializer(serializers.ModelSerializer):
     class Meta:
         model = GoodsImage
         fields = "__all__"
+
 
 class GoodsSerializer(serializers.ModelSerializer):
     '''

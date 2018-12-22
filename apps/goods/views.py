@@ -11,6 +11,7 @@ from .models import Goods,GoodsCategory
 from .filters import GoodsFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
+
 # 商品分页
 class GoodsPagination(PageNumberPagination):
     page_size =10
