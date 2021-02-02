@@ -1,4 +1,4 @@
-bleach==2.1.1
+bleach==3.3.0
 bootstrap-admin==0.3.7.1
 chardet==3.0.4
 click==6.7
