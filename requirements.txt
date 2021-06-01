@@ -64,7 +64,7 @@ six==1.11.0
 tablib==0.12.1
 unicodecsv==0.14.1
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.26.5
 user-agent==0.1.9
 webencodings==0.5.1
 Whoosh==2.7.4
